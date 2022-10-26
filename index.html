@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>kolko i krzyzyk</title>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+            font-family: Arial, Helvetica, sans-serif;
+            box-sizing: border-box;
+        }
+
+        .title {
+            text-align: center;
+            text-shadow: 2px 2px gray;
+        }
+
+        .author {
+            position: absolute;
+            left: 50%;
+            transform: translate(-50%);
+            text-shadow: 1px 1px gray;
+        }
+
+        .container {
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+            margin: 4% 25%;
+        }
+
+        .container .required {
+            margin: 10px auto;
+        }
+
+        button {
+            background-color: white;
+            transition: 0.4s;
+            border-radius: 8px;
+
+        }
+
+        .twoplayers a {
+            text-decoration: none;
+            color: black;
+        }
+
+        button:hover {
+            background-color: yellow;
+        }
+    </style>
+</head>
+
+<body>
+
+    <head>
+        <h1 class="title">Tic Tac Toe</h1>
+        <span class="author">By Pogwizd Piotr</span>
+    </head>
+    <main>
+        <div class="container">
+            <span class="required">Chosee game mode: </span>
+<!--            <button class="oneplayer">1 PLAYER</button>-->
+            <button class="twoplayers"><a href="start.html"> 2 PLAYERS</a></button>
+        </div>
+    </main>
+    <footer></footer>
+</body>
+
+</html>
